@@ -324,6 +324,39 @@
           <svg class="close-icon" width="8" height="8">
           <use href="./images/icons.svg#icon-close"></use>
         </svg></button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+<div class="modal-field">
+  <label class="input-text">Name
+    <input type="text" name="user-name" class="input-wrap">
+    <svg class="modal-icon" width="18" height="24">
+      <use href="./images/icons.svg#icon-person"></use>
+    </svg>
+  </label>
+</div>
+<div class="modal-field">
+  <label class="input-text">Phone
+    <input type="tel" name="user-tel" class="input-wrap">
+    <svg width="18" height="24">
+      <use href="./images/icons.svg#icon-phone"></use>
+    </svg>
+  </label>
+</div>
+<div class="modal-field">
+  <label class="input-text">Email
+    <input type="email" name="user-email" class="input-wrap">
+    <svg width="18" height="24">
+      <use href="./images/icons.svg#icon-email"></use>
+    </svg>
+  </label>
+</div>
+<div class="modal-field">
+  <label class="input-text">Comment<textarea placeholder="Text input" class="modal-textarea"></textarea></label>
+</div>
+<div class="modal-field-agreement"><input type="checkbox" name="agreement" class="modal-checkbox">
+<p class="modal-agreement">I accept the terms and conditions of the <a href="" class="modal-link">Privacy Policy</a></p></div>
+<button type="submit" class="btn-send">Send</button>
+        </form>
       </div>
        <script src="./js/modal.js"></script>
   </body>
