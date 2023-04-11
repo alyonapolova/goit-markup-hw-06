@@ -679,7 +679,18 @@ img {
 }
 
 .modal-field {
+  position: relative;
   margin-bottom: 8px;
+}
+.modal-icon {
+  position: absolute;
+  top: 80%;
+  left: 16px;
+  transform: translateY(-80%);
+}
+
+.input-wrap:focus + .modal-icon {
+  fill: var(--logo-effect);
 }
 
 .input-text {
@@ -692,14 +703,14 @@ img {
   color: #8e8f99;
 }
 .input-wrap {
-  padding-left: 16px;
+  padding-left: 38px;
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
 }
 
-.input-wrap:is(:hover, :focus) {
+.input-wrap:focus {
   border-color: var(--logo-effect);
 }
 
