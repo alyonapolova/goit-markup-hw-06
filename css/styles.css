@@ -712,6 +712,10 @@ img {
   justify-content: center;
   cursor: pointer;
   fill: var(--main-title-color);
+
+  transition-property: background-color, fill, border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-modal:is(:hover, :focus) {
   background-color: var(--hover-color);
@@ -785,6 +789,10 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   outline: transparent;
+
+  transition-property: border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-textarea:is(:hover, :focus) {
@@ -824,19 +832,6 @@ img {
   letter-spacing: 0.04em;
 
   color: var(--logo-effect);
-}
-
-.modal-checkbox {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .agree-field {
