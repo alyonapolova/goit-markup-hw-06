@@ -769,6 +769,7 @@ img {
   color: #8e8f99;
 }
 .modal-input {
+  margin-top: 4px;
   padding-left: 38px;
   width: 100%;
   height: 40px;
