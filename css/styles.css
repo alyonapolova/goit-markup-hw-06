@@ -773,7 +773,7 @@ img {
   display: block;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.7;
+  line-height: 1.166;
 
   letter-spacing: 0.04em;
 
@@ -871,12 +871,11 @@ img {
   margin: 0 auto;
   display: block;
   min-width: 169px;
-  height: 56px;
   background-color: var(--logo-effect);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-color: transparent;
-  padding: 16px 32px;
+  padding: 14px 32px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
